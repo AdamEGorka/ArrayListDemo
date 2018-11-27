@@ -9,6 +9,10 @@ public class ArrayListDemo{
 			listFinal.add(list2.get(i));
 		return listFinal;
 	}
+	public void print(ArrayList<Integer> list){
+		for(int i = 0; i < list.size(); i++)
+			System.out.print(list.get(i)+", ");
+	}
 	public static void main(String[]args){
 
 	}
